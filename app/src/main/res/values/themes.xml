@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.ProyectoFinal" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">#009efd</item>
+        <item name="colorPrimaryVariant">#009efd</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -14,12 +14,9 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.ProyectoFinal.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="BottomNavigation">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
     </style>
-
-    <style name="Theme.ProyectoFinal.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.ProyectoFinal.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
